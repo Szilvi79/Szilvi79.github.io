@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
+
+* {
+    margin: 0;
+}
+
+html {
+    background-color: #FFFFD4;
+}
+
+main {
+    margin: auto;
+    width: 70%;
+    border: 2px solid brown;
+    background-color: white;
+    color: #555;
+}
+
+/*fejléc*/
+
+header {
+    text-align: center;
+    width: 100%;
+}
+/*fejléc END*/
+
+
+/*menü*/
+
+nav {   
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #FF7F2A;
+    text-align: center;
+}
+
+nav li {
+    display:inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+nav li a {
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    font-weight:bolder;
+    justify-content: center;
+}
+
+nav li a:hover {
+    background-color: #BF153F;
+}
+
+.clearfix{
+    overflow: auto;
+}
+/*menü END*/
+
+/*tartalom*/
+section {
+    margin: 20px;
+    padding: auto;
+    background-color: white; 
+}
+
+.section-title {
+    width: 100%;
+    height: auto;
+    margin: 60px 10px 10px 10px;
+    display: block;
+    padding: 15px;
+}
+
+h2{
+    font-size: 35px;
+    font-style: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.img{
+    height: 190px;
+    width: 30%;
+    margin: 10px;
+    float: right;
+    display: inline;
+}
+
+.section-text{
+    text-align:justify;
+    width: auto; 
+    margin: 10px;
+}
+
+p{
+    font-size: 20px;
+}
+
+/*tartalom END*/
+
+/*lábléc*/
+
+footer{
+    display: block;
+    text-align: center;
+    overflow: auto;
+    height: 200px;
+    width: 100%;
+    margin: 60px 0 0 10px;
+}
+
+/*lábléc END*/

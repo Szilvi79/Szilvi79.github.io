@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+div#content {
+    width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-template-areas: 
+          "header header header header" 
+          "nav nav nav nav"
+          "section section section section" 
+          "aside aside aside aside"
+          "footer footer footer footer";      
+}
+
+@media screen and (max-width: 768px){  
+    div#content {
+        max-width: 960px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        grid-template-areas: 
+            "header header header header" 
+            "nav nav nav nav"
+            "section section section section" 
+            "aside aside aside aside"
+            "footer footer footer footer";
+    }  
+}
+/*HEADER*/
+header {
+    grid-area: header;
+    background-color: #1890a8;
+    color: white;
+    padding: 10px 30px 10px 30px;
+}
+
+header p {
+    text-align: center;
+    padding: 20px;
+    font-style: bold;
+}
+
+header #nap {
+    float: inline-end;
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+#nap:after{
+    content: '';
+    position: absolute;  
+    width: 20px; height: 20px;  
+    border: 1px solid #999;
+    top: -10px; left: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+}
+
+#nap:before {
+    content: '';
+    position: absolute;
+    width: 5px; height: 5px;
+    top: -14px;left: 54%;
+    z-index: 5;
+    border-radius: 50% 50%;
+    background: #000;
+}
+
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+
+header #harkany {
+    float: inline-start;
+}
+/*HEADER END*/
+
+/*SECTION*/
+section {
+    grid-area: section;
+    background-color: #d9f6f4;
+    position: relative
+}
+
+
+section P {
+    color: #084f5d;
+    text-align: left;
+    padding: 10px 15px 10px 15px;
+}
+
+
+/*SECTION END*/
+
+
+
+/*NAV*/
+nav {
+    grid-area: nav;
+    background-color: #084f5d;;
+}
+
+nav li {
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+nav li a {
+    color: white; 
+    text-decoration: none;
+}
+
+nav li :hover {
+    background-color:#1890a8;
+}
+/*NAV END*/
+
+/*FOOTER*/
+footer {
+    grid-area: footer;
+    background-color: #1890a8;
+    color: white;
+    padding: 15px;
+}
+
+footer a {
+    color: white;
+}
+
+footer #bal {
+    float: left;
+    text-align: left;
+}
+
+footer #jobb {
+    float: right;
+}
+/*FOOTER END*/

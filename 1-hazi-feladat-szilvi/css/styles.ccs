@@ -1,0 +1,24 @@
+/*body*/
+h1 {
+    text-align: center;
+    color: saddlebrown;
+    font-family: initial;
+}
+
+body {
+    background-color: cornsilk;
+    text-align: center;
+    font-size: 18px;
+    color: sienna;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/*body END*/
+
+/*images*/
+img {
+    height: 350px;
+    width: 450px;
+    
+}
+/*images END*/

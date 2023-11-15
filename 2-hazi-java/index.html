@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Házi feladat - Javascript 2.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+            <h1>Macskamánia</h1>
+    </header>
+
+    <main>
+        <div class="gallery-image">
+            <div><img src="img/macska-1.jpg" alt="Első" class="gallery-image" data-large="macska-1_large.jpg"></div>
+            <div><img src="img/macska-2.jpg" alt="Második" class="gallery-image" data-large="macska-2_large.jpg"></div>
+            <div><img src="img/macska-3.jpg" alt="Harmadik" class="gallery-image" data-large="macska-3_large.jpg"></div>
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content">
+            <img id="modal-image" src="" alt="Nagy méretű kép">
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+  // Kattintás esemény a képekre
+  $('.gallery-image').click(function() {
+    // Nagy kép beállítása és modális ablak megjelenítése
+    $('#modal-image').attr('src', $(this).data('large'));
+    $('#myModal').fadeIn();
+  });
+
+  // Bezáró gomb és modális háttér kattintás eseménye
+  $('.close, #myModal').click(function() {
+    $('#myModal').fadeOut();
+  });
+
+  // Megakadályozza a modális kép kattintását, hogy bezárja a modális ablakot
+  $('#modal-image').click(function(event) {
+    event.stopPropagation();
+  });
+});
+</script>
+</body>
+</html>

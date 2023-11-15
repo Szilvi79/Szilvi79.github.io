@@ -1,0 +1,49 @@
+/*body*/
+body{
+    background-color: #AAFFAA;
+    border: 1px solid brown;
+    text-align: center;
+    width: 50%;
+}
+
+div{
+    background-color: white;
+    width: 50%;
+    color: #333;
+    margin: 100px auto 50px;
+    padding: 20px;
+}
+
+img{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+/*body END*/
+
+/*menü*/
+li{
+    list-style: none;
+    float: left;
+    display: block;
+    margin: 5px 10px 1px 10px;
+}
+
+li a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(127 170 255);
+}
+
+li a:hover {
+    color: black;
+}
+/*menü END*/
+
+
+
+
+
+
+
