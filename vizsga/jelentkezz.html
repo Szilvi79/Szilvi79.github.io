@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sly e-fordítás, jelentkezz fordítónak!</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,600;1,300;1,600&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <div id="head" class="flex-container">
+            <img src="img/email.svg" alt="E-mail cím">
+            <p><a href="mailto:info@e-forditas.eu">info@e-forditas.eu</a></p>
+            <img src="img/phone.svg" alt="Telefonszám">
+            <p><a href="tel:+491796681728">+49 179 6681728</a></p>
+        </div>
+    </header>
+
+    <nav>
+        <div id="nav" class="flex-container">
+            <div class="hamburger-menu">
+                &#9776;
+            </div>
+            <div>
+                <img src="img/e-forditas.logo.png" alt="Sly e-fordítás">
+                <p> magyar nyelvű ügyintézés, magyar árak Németországban</p>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="index.html">Főoldal</a></li>
+                    <li><a href="megrendeles-menete.html">Fordítás</a></li>
+                    <li><a href="arak.html">Árak</a></li>
+                    <li><a href="arajanlat.html">Ajánlatot kérek</a></li>
+                    <li><a href="gyik.html">GY.I.K.</a></li>
+                    <li><a href="kapcsolat.html">Kapcsolat</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="nav-menu" hidden>
+                    <ul>
+                        <li><a href="index.html">Főoldal</a></li>
+                        <li><a href="megrendeles-menete.html">Fordítás</a></li>
+                        <li><a href="arak.html">Árak</a></li>
+                        <li><a href="arajanlat.html">Ajánlatot kérek</a></li>
+                        <li><a href="gyik.html">GY.I.K.</a></li>
+                        <li><a href="kapcsolat.html">Kapcsolat</a></li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+
+    <section>
+        <h1>Tájékoztató fordítóknak</h1>
+        <p>Folyamatosan várjuk számlaképes fordítók jelentkezését.</p>
+        <p>A jelentkezőkkel szemben elvárt szakmai és személyi követelmények a következők:</p>
+        <div class="flex-container-jelentkez">
+            <div>
+                <img src="img/jelentkezz.jpg" alt="Jelentkezz">
+            </div>
+            <div>
+                <ul>
+                    <li>szakirányú végzettség (szakfordítói/tolmács képesítés; felsőfokú végzettség)</li>
+                    <li>több éves szakmai tapasztalat (referenciákkal)</li>
+                    <li>államilag, vagy nemzetközileg elismert felsőfokú nyelvvizsga az adott idegen nyelv(ek)ből</li>
+                    <li>kiváló számítógépes ismeret és felhasználói gyakorlat</li>
+                    <li>a szakma iránti elkötelezettség</li>
+                    <li>jó együttműködő készség</li>
+                    <li>rugalmas munkavégzés</li>
+                    <li>pontosság, precizitás</li>
+                    <li>titoktartás</li>
+                </ul>
+                <img src="img/like.png" alt="Tetszik" id="like">
+            </div>
+        </div>
+        <p>Ha Ön úgy érzi, hogy megfelel a fenti követelményeknek, kérjük, hogy jelentkezését küldje el e-mailban
+            szakmai önéletrajzával együtt.</p>
+        <p>e-mail címünk: <a href="mailto:info@e-forditas.eu">info@e-forditas.eu</a></p>
+
+        <div class="topup">
+            <a href="jelentkezz.html"><img src="img/top.png" alt="Fel"></a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-grid-2">
+            <div class="grid-f1">
+                <h2>Információk</h2>
+                <ul>
+                    <li><a href="aszf.html">ÁSZF</a></li>
+                    <li><a href="adatvedelem.html">Adatvédelem</a></li>
+                    <li><a href="impresszum.html">Impresszum</a></li>
+                </ul>
+            </div>
+            <div class="grid-f2">
+                <h2>Fordítóknak</h2>
+                <ul>
+                    <li><a href="jelentkezz.html">Jelentkezz fordítónak!</a></li>
+                    <li><a href="erdekesseg.html">Érdekesség a szakmáról</a></li>
+                </ul>
+            </div>
+            <div class="grid-f3">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+                <a href="#" class="fa fa-skype"></a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>A weboldal <strong>Bakó Szilvia</strong> vizsgamunkája, a valóságban nem működik!</p>
+        </div>
+    </footer>
+
+    <script>
+
+        $(document).ready(function () {
+            $('.hamburger-menu').click(function () {
+                $('.nav-menu').slideToggle(); // Váltás a .nav-menu megjelenítése és elrejtése között
+            });
+        });
+
+        $(window).resize(function () {
+            if ($(window).width() > 600) {
+                $('.nav-menu').hide(); // Elrejtjük a navigációs menüt, ha a képernyő szélesebb, mint 600px
+            }
+        });
+
+    </script>
+</body>
+
+</html>
