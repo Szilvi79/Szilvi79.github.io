@@ -49,7 +49,7 @@ li {
     padding: 25px 0 20px 0;
     font-size: x-large;
     border: 1px solid rgb(122, 10, 74);
-    border-radius: 15%;
+    border-radius: 15px;
     margin: 20px 50px 15px 50px;
     -webkit-box-shadow: 5px 5px 15px 5px rgb(239, 232, 236);
     box-shadow: 5px 5px 15px 5px rgb(141, 105, 141);
@@ -61,7 +61,7 @@ li a {
     padding: 10px;
 }
 
- li:hover {
+li:hover {
     background-color: rgb(122, 10, 74);
   }
 
