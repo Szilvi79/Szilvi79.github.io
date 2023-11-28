@@ -251,7 +251,7 @@ h3{
     transition: 7s;
     display: block;
     width: 100%;
-    animation: animate 10 10s;
+    animation: animate 10 6s;
     position: absolute;
     top: 0;
     left: 0;
