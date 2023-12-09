@@ -43,19 +43,18 @@
                     <li><a href="gyik.html">GY.I.K.</a></li>
                     <li><a href="kapcsolat.html">Kapcsolat</a></li>
                 </ul>
-            </div>
-            <div>
-            <div class="nav-menu" hidden>
-                <ul>
-                    <li><a href="index.html">Főoldal</a></li>
-                    <li><a href="megrendeles-menete.html">Fordítás</a></li>
-                    <li><a href="arak.html">Árak</a></li>
-                    <li><a href="arajanlat.html">Ajánlatot kérek</a></li>
-                    <li><a href="gyik.html">GY.I.K.</a></li>
-                    <li><a href="kapcsolat.html">Kapcsolat</a></li>
-                </ul>
-            </div>
+            </div>   
         </div>
+        <div class="nav-menu" hidden>
+            <ul>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="megrendeles-menete.html">Fordítás</a></li>
+                <li><a href="arak.html">Árak</a></li>
+                <li><a href="arajanlat.html">Ajánlatot kérek</a></li>
+                <li><a href="gyik.html">GY.I.K.</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+            </ul>
+        </div>  
     </nav>
 
     <section>
@@ -67,7 +66,9 @@
                         <h2>Kiemelkedő minőség</h2>
                         <h2>elérhető áron</h2>
                         <p><strong>Fordítás 0,008€/karaktertől</strong></p>
-                        <center><button class="button-1"><a href="arak.html">Árak</a></button></center>
+                        <div style="text-align:center">
+                        <button class="button-1"><a href="arak.html">Árak</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -78,7 +79,9 @@
                         <h2>Mennyiségi kedvezmény</h2>
                         <p><strong>Nagyobb mennyiségű és folyamatos</strong></p>
                         <p><strong>megbízások esetén kedvezőbb árak</strong></p>
-                        <center><button class="button-1"><a href="arajanlat.html">Árajánlat</a></button></center>
+                        <div style="text-align:center">
+                        <button class="button-1"><a href="arajanlat.html">Árajánlat</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,7 +92,9 @@
                         <h2>Ingyen letölthető</h2>
                         <h2>nyomtatványok</h2>
                         <p><strong>Összegyűjtöttük magyarul és németül is</strong></p><br>
-                        <center><button class="button-1"><a href="arak.html">Letöltöm</a></button></center>
+                        <div style="text-align:center">
+                        <button class="button-1"><a href="arak.html">Letöltöm</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -99,7 +104,9 @@
                     <div>
                         <h2>Profi szakfordítók</h2><br>
                         <p><strong>Különböző szakterületeken és nyelveken</strong></p>
-                        <center><button class="button-1"><a href="megrendeles-menete.html">Szolgáltatások</a></button></center>
+                        <div style="text-align:center">
+                        <button class="button-1"><a href="megrendeles-menete.html">Szolgáltatások</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -179,7 +186,7 @@
                     <p>kezelési útmutatók fordítása és azok nyomdakész szerkesztése, weblap fordítás</p>
                 </div>
                 <div class="ref2">
-                    <img src="img/denon.png" alt="Denon">
+                    <img src="img/denon.jpg" alt="Denon">
                     <h3>Denon</h3>
                     <p>kezelési útmutatók fordítása, weblap fordítás</p>
                 </div>
@@ -254,13 +261,13 @@
 
         $(document).ready(function () {
             $('.hamburger-menu').click(function () {
-                $('.nav-menu').slideToggle(); // Váltás a .nav-menu megjelenítése és elrejtése között
+                $('.nav-menu').slideToggle(); 
             });
         });
 
         $(window).resize(function () {
-            if ($(window).width() > 600) {
-                $('.nav-menu').hide(); // Elrejtjük a navigációs menüt, ha a képernyő szélesebb, mint 600px
+            if ($(window).width() > 768) {
+                $('.nav-menu').hide(); 
             }
         });
 
@@ -277,7 +284,7 @@
             slideIndex++;
             if (slideIndex > slides.length) { slideIndex = 1 }
             slides[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 3000); // Change image every 2 seconds
+            setTimeout(showSlides, 3000); 
 
             for (i = 0; i < dots.length; i++) {
              dots[i].className = dots[i].className.replace(" active", "");
