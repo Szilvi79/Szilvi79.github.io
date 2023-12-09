@@ -1089,7 +1089,15 @@ iframe{
         flex-direction: column;
     }
     .slide img{
-        max-width: 93%;
+        display: block;
+        margin: 20px auto 0 auto;
+        max-width: 90%;
+    }
+    .slideshow-container p{
+        padding: 0;
+    }
+    .button-1{
+        margin-bottom: 20px;
     }
     .ar{
         display: flex;
@@ -1165,7 +1173,13 @@ iframe{
     }
     .slide img{
         max-width: 90%;
-    }         
+    }  
+    .slideshow-container p{
+        padding: 0;
+    }
+    .button-1{
+        margin-bottom: 15px;
+    }       
     #nav ul {
         display: none; 
     }
@@ -1184,6 +1198,13 @@ iframe{
     .container-kapcsolat{
         grid-template-columns: auto;
     }
+    #rendel4{
+        display: block;
+        max-width: 90%;
+    }
+    #rendel4 h2{
+        padding: 0 0 20px 0;
+    }
     #ajanlat{
         flex-direction: column;
     }
@@ -1197,6 +1218,20 @@ iframe{
      #nyelvre{
         margin: auto auto 30px auto;
     }
+    #szolg,
+    #hatar,
+    #kuld{
+        display: block;
+    }
+    #feltolt{
+        margin-top: 30px;
+    }
+    #feltolt input[type=file]{
+        font-size: 11px;
+    }   
+    #feltolt input[type=submit]{
+        max-width: 40%;
+    }   
     select{
         display: block;
         margin: auto;
@@ -1204,4 +1239,10 @@ iframe{
     .section-rendel-4 a{
         max-width: 50%;
     } 
+    #nyomtatvany{
+        max-width: 100%;
+    }
+    article{
+        max-width: 100%;
+    }
 }
