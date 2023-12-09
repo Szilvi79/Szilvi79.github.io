@@ -1152,10 +1152,13 @@ iframe{
     }
     #rendel4 h2{
         margin-top: 0;
-     }
+    }
     .section-rendel-4 a{
         max-width: 40%;
-     } 
+    }
+    .flex-container-jelentkez ul{
+        padding-top: 0%;
+    }
 }
     
 @media only screen and (max-width: 768px) {
