@@ -1,0 +1,198 @@
+<?php require_once "basic/header.php"; ?>
+
+    <section>
+        <div class="section-adat">
+            <h1>Adatkezelési tájékoztató</h1>
+            <img src="img/anwalt.png" alt="Anwalt">
+                <p>Bakó Szilvia (Kapellenplatz 5. 91541 Rothenburg ob der Tauber, a továbbiakban Adatkezelő),
+                magára nézve kötelezőnek ismeri el jelen jogi közlemény tartalmát. Kötelezettséget vállal arra, hogy
+                tevékenységével kapcsolatos minden adatkezelés megfelel a jelen szabályzatban és a hatályos
+                jogszabályokban
+                (Data Protection Act), valamint az Európai Unió jogi aktusaiban (GDPR) meghatározott elvárásoknak.</p>
+                <p>Az Adatkezelő fenntartja magának a jogot jelen tájékoztató bármikori megváltoztatására. Az esetleges
+                változásokról kellő időben értesíti közönségét.</p>
+                <p>Az Adatkezelő elkötelezett ügyfelei és partnerei személyes adatainak védelmében, kiemelten fontosnak
+                tartja ügyfelei információs önrendelkezési jogának tiszteletben tartását. Az Adatkezelő a személyes adatokat
+                bizalmasan kezeli, és megtesz minden olyan biztonsági, technikai és szervezési intézkedést, mely az
+                adatok biztonságát garantálja.</p>
+                <p>Az Adatkezelő az alábbiakban ismerteti adatkezelési gyakorlatát.</p>
+            <ol>
+                <strong><li>Adatkezelési definiciók</li> </strong>
+                    <p><strong>Személyes adat:</strong> bármely meghatározott (azonosított, vagy azonosítható) természetes
+                    személlyel (a
+                    továbbiakban: Érintett) kapcsolatba hozható adat, az adatból levonható, az Érintettre vonatkozó
+                    következtetés. A személyes adat az adatkezelés során mindaddig megőrzi e minőségét, amíg kapcsolata
+                    az érintettel helyreállítható. A személy különösen akkor tekinthető azonosíthatónak, ha őt –
+                    közvetlenül, vagy közvetve – név, azonosító jel, illetőleg egy vagy több, fizikai, fiziológiai, mentális,
+                    gazdasági, kulturális vagy szociális azonosságára jellemző tényező alapján azonosítani lehet.</p>
+                    <p><strong>Hozzájárulás:</strong> az Érintett akaratának önkéntes és határozott kinyilvánítása, amely
+                    megfelelő tájékoztatáson alapul, és amellyel félreérthetetlen beleegyezését adja a rá vonatkozó személyes adat
+                    - teljes körű, vagy egyes műveletekre kiterjedő – kezeléséhez.</p>
+                    <p><strong>Tiltakozás:</strong> az Érintett nyilatkozata, amellyel személyes adatának kezelését
+                    kifogásolja,és az adatkezelés megszüntetését, illetve kezelt adat törlését kéri.</p>
+                    <p><strong>Adatkezelő:</strong> az a természetes vagy jogi személy, illetve jogi személyiséggel nem
+                    rendelkező szervezet, aki,
+                    vagy amely önállóan, vagy másokkal együtt az adat kezelésének célját meghatározza, az adatkezelésre
+                    (beleértve a felhasznált eszközt) vonatkozó döntéseket meghozza és végrehajtja, vagy az
+                    Adatfeldolgozóval végrehajtatja.</p>
+                    <p><strong>Adatkezelés:</strong> az alkalmazott eljárástól függetlenül az adaton végzett bármely
+                    művelet, vagy a műveletek
+                    összessége, így különösen gyűjtése, felvétele, rögzítése, rendszerezése, tárolása, megváltoztatása,
+                    felhasználása, lekérdezése, továbbítása, nyilvánosságra hozatala, összehangolása, vagy
+                    összekapcsolása, zárolása, törlése és megsemmisítése, valamint az adat további felhasználásának megakadályozása,
+                    fénykép-, hang-vagy kép-felvétel készítése, valamint a személy azonosítására alkalmas fizikai
+                    jellemzők rögzítése.</p>
+                    <p><strong>Adattovábbítás:</strong> az adat meghatározott harmadik személy számára történő
+                    hozzáférhetővé tétele.</p>
+                    <p><strong>Nyilvánosságra hozatal:</strong> az adat bárki számára történő hozzáférhetővé tétele.</p>
+                    <p><strong>Adattörlés:</strong> az adat felismerhetetlenné tétele oly módon, hogy a helyreállítása többé
+                    nem lehetséges.</p>
+                    <p><strong>Adatmegjelölés:</strong> az adat azonosító jelzéssel ellátása annak megkülönböztetése
+                    céljából.</p>
+                    <p><strong>Adatzárolás:</strong> az adat azonosító jelzéssel ellátása további kezelésének végleges, vagy
+                    meghatározott időre történő korlátozása céljából.</p>
+                    <p><strong>Adatmegsemmisítés:</strong> az adatot tartalmazó adathordozó teljes fizikai megsemmisítése.</p>
+                    <p><strong>Adatfeldolgozás:</strong> az adatkezelési műveletekhez kapcsolódó technikai feladatok
+                    elvégzése, függetlenül a
+                    műveletek végrehajtásához alkalmazott módszertől és eszköztől, valamint az alkalmazás helyétől,
+                    feltéve, hogy a technikai feladatot az adaton végzik.</p>
+                    <p><strong>Adatfeldolgozó:</strong> az a természetes, vagy jogi személy, illetve jogi személyiséggel nem
+                    rendelkező szervezet, aki, vagy amely szerződés alapján - beleértve a jogszabály rendelkezése alapján kötött
+                    szerződést is - adatok feldolgozását végzi.</p>
+                    <p><strong>Adatállomány:</strong> nyilvántartásban kezelt adatok összessége.</p>
+                    <p><strong>Harmadik személy:</strong> olyan természetes, vagy jogi személy, illetve jogi személyiséggel
+                    nem rendelkező szervezet, aki, vagy amely nem azonos az érintettel, az Adatkezelővel, vagy az adatfeldolgozóval.</p>
+                    <p><strong>Adatvédelmi incidens:</strong> személyes adat jogellenes kezelése, vagy feldolgozása, így
+                    különösen a jogosulatlan hozzáférés, megváltoztatás, továbbítás, nyilvánosságra hozatal, törlés, vagy
+                    megsemmisítés, valamint a véletlen megsemmisülés és sérülés.</p>
+
+                <strong><li>Adatkezelési alapelvek</li></strong>
+                    <p>Személyes adat akkor kezelhető, ha ahhoz az érintett hozzájárul.</p>
+                    <p>A General Data Protection Regulation (GDRP) értelmében a 16. életévet betöltött kiskorú érintett
+                    hozzájárulását tartalmazó jognyilatkozatának érvényességéhez a törvényes képviselője beleegyezése,
+                    vagy utólagos jóváhagyása nem szükséges. Cselekvőképtelen és korlátozottan cselekvőképes kiskorú személy
+                    nyilatkozatához a törvényes képviselőjének hozzájárulása szükséges, kivéve azon szolgáltatás
+                    részeket, ahol a nyilatkozat a mindennapi életben tömegesen előforduló regisztrációt céloz, és különösebb
+                    megfontolást nem igényel. Személyes adatot kezelni csak meghatározott célból, jog gyakorlása és
+                    kötelezettség teljesítése érdekében lehet. Az adatkezelésnek minden szakaszában meg kell felelnie e
+                    célnak. Csak olyan személyes adat kezelhető, amely az adatkezelés céljának megvalósulásához
+                    elengedhetetlen, a cél elérésére alkalmas, csak a cél megvalósulásához szükséges mértékben és ideig.</p>
+                    <p>Kötelező adatkezelés esetén az adatkezelés célját és feltételeit, a kezelendő adatok körét és
+                    megismerhetőségét, az adatkezelés időtartamát, valamint az Adatkezelő személyét az adatkezelést
+                    elrendelő törvény, vagy önkormányzati rendelet határozza meg.</p>
+                    <p>Törvény közérdekből - az adatok körének kifejezett megjelölésével – elrendelheti a személyes adat
+                    nyilvánosságra hozatalát. Minden egyéb esetben a nyilvánosságra hozatalhoz az érintett
+                    hozzájárulása, különleges adat esetében írásbeli hozzájárulása szükséges. Kétség esetén azt kell vélelmezni, hogy
+                    az érintett a hozzájárulását nem adta meg. Az érintett hozzájárulását megadottnak kell tekinteni az
+                    érintett közszereplése során általa közölt, vagy a nyilvánosságra hozatal céljából általa átadott
+                    adatok tekintetében.</p>
+
+                <strong><li>Az Adatkezelő adatai</li></strong>
+                    <p>Név: Bakó Szilvia</p>
+                    <p>Székhely: Kapellenplatz 5. 91541 Rothenburg ob der Tauber</p>
+                    <p>Adószám: 203/256/52072, DE305766289</p>
+                    <p>Telefonszám: +36-30-2065870, +49-179-6681728</p>
+                    <p>E-mail: info@e-forditas.eu</p>
+                    <p>Az itt megadott elérhetőségeken léphet kapcsolatba az Adatkezelővel.</p>
+
+                <strong><li>A kezelt személyes adatok köre</li></strong>
+                    <strong><em><p>Szerződés teljesítéshez kapcsolódóan kezelt adatok</p></em></strong>
+                    <strong><em><p>Online rendeléshez kapcsolódó adatkezelés:</p></em></strong>
+                        <p>célja a rendelés feldolgozása, a szerződés teljesítéséhez szükséges adatkezelés.</p>
+                        <p>A kezelt adatok köre: az Adatkezelő az Ön nevét, lakcímét, e-mail címét, telefonszámát, a megrendelt
+                        szolgáltatás jellemzőit, annak időpontját és a megrendelés számát kezeli.</p>
+                        <p>Az adatkezelés jogalapja: a szerződés teljesítése</p>
+                        <p>Az adatkezelés időtartama: az érvényben levő jogszabály alapján az Adatkezelő 6 évig kezeli az adatokat.</p>
+                    <strong><em><p>Számlázáshoz kapcsolódó adatkezelés</p></em></strong>
+                        <p>Az adatkezelés célja: számla kiállítása és a bizonylat megőrzési kötelezettség teljesítése.</p>
+                        <p>A kezelt adatok köre: az Adatkezelő az Ön nevét, lakcímét, e-mail címét, telefonszámát kezeli.</p>
+                        <p>Az adatkezelés jogalapja: törvényi kötelezettség, az Adatkezelőt terhelő aktuális számviteli
+                        jogszabályoknak történő megfelelés. Az adatkezelés időtartama: a kiállított számlákat az érvényben
+                        levő jogszabály alapján az Adatkezelőnek 6 évig kell megőrizni.</p>
+                    <strong><em><p>A rendelés kiszállításhoz kapcsolódó adatok</p></em></strong>
+                        <p>Az adatkezelés célja: a rendelt szolgáltatás kiszállítása posta igénybevételével az Ön részére.</p>
+                        <p>A kezelt adatok köre: az Adatkezelő az Ön nevét, lakcímét, e-mail címét, telefonszámát kezeli.</p>
+                        <p>Az adatkezelés jogalapja: a szerződés teljesítése.</p>
+                        <p>Az adatkezelés időtartama: az Adatkezelő az adatokat a rendelt szolgáltatás kiszállításának
+                        időtartamáig kezeli.</p>
+                    <strong><em><p>Online ügyintézéshez, kapcsolatfelvételhez kapcsolódó adatok</p></em></strong>
+                        <p>Az adatkezelés célja: az Adatkezelő által a honlapon alkalmazott online kapcsolatfelvételi űrlap
+                        használata az Ön részére, a gyors és rugalmas tájékoztatás végett. A szolgáltatások használata nem
+                        kötelező.</p>
+                        <p>A kezelt adatok köre: az Adatkezelő az Ön nevét, e-mail címét kezeli.</p>
+                        <p>Az adatkezelés jogalapja: az Ön hozzájárulása.</p>
+                        <p>Az adatkezelés időtartama: az Ön hozzájárulásának visszavonásáig.</p>
+                    <strong><em><p>Fogyasztóvédelmi panaszokhoz kapcsolódó adatok</p></em></strong>
+                        <p>Az adatkezelés célja: amennyiben Ön panasszal fordul az Adatkezelőhöz, úgy az adatait meg kell, hogy
+                        adja a panasz kivizsgáláshoz, így az adatkezelés is szükséges.</p>
+                        <p>A kezelt adatok köre: az Adatkezelő az Ön nevét, e-mail címét, telefonszámát és a panasz leírását
+                        kezeli.</p>
+                        <p>Az adatkezelés jogalapja: a panaszbejelentés megtételét követően, a törvényi kötelezettség
+                        teljesítése.</p>
+                        <p>Az adatkezelés időtartama: ha a panaszbejelentést Ön önkéntesen megteszi, abban az esetben
+                        jogszabályi előírások alapján az Adatkezelő a panaszbejelentéstől számított 6 évig kezeli az adatokat.</p>
+                    <strong><em><p>Garanciális ügyintézéshez kapcsolódó adatok</p></em></strong>
+                        <p>Az adatkezelés célja: amennyiben Ön garanciális problémával fordul az Adatkezelőhöz, úgy az adatait
+                        meg kell, hogy adja az ügyintézéshez, így az adatkezelés is szükséges.</p>
+                        <p>A kezelt adatok köre: az Adatkezelő az Ön nevét, e-mail címét, telefonszámát és a panasz leírását
+                        kezeli.</p>
+                        <p>Az adatkezelés jogalapja: az Ön garanciális panaszbejelentését követően, a törvényi kötelezettség
+                        teljesítése.</p>
+                        <p>Az adatkezelés időtartama: ha a garanciális panaszbejelentést Ön önkéntesen megteszi, abban az
+                        esetben jogszabályi előírások alapján Adatkezelő a panaszbejelentéstől számított 6 évig kezeli az adatokat.</p>
+
+            <strong><li>Az adatkezelés során Önt megillető jogok és jogérvényesítési lehetőségek</li></strong>
+                <strong><em><p>Tájékoztatáshoz való jog</p></em></strong>
+                    <p>Az Adatkezelő megfelelő intézkedéseket hoz annak érdekében, hogy az érintettek részére a személyes
+                    adatok kezelésére vonatkozó, a GDPR 13. és a 14. cikkben említett valamennyi információt és a 15–22.
+                    és 34. cikk szerinti minden egyes tájékoztatást tömör, átlátható, érthető és könnyen hozzáférhető
+                    formában, világosan és közérthetően megfogalmazva nyújtsa.</p>
+                    <p>Az Adatkezelő az Ön kérelmének benyújtását követően a lehető leghamarabb, de legkésőbb 25 napon belül
+                    írásban tájékoztatja Önt a kezelt adatokról, az adatkezelés céljáról, időtartamáról, jogalapjáról,
+                    továbbá – ha adattovábbítás történt – azon információról, hogy kiknek és milyen célból történt az
+                    adattovábbítás.</p>
+                <strong><em><p>Az érintett hozzáféréshez való joga</p></em></strong>
+                    <p>Az érintett jogosult arra, hogy az Adatkezelőtől visszajelzést kapjon arra vonatkozóan, hogy
+                    személyes adatainak kezelése folyamatban van-e, és ha ilyen adatkezelés folyamatban van, jogosult
+                    arra, hogy a személyes adatokhoz hozzáférést kapjo.</p>
+                <strong><em><p>Helyesbítés joga</p></em></strong>
+                    <p>Az Érintett kérheti az Adatkezelő által kezelt, rá vonatkozó pontatlan személyes adatok helyesbítését
+                    és a hiányos adatok kiegészítését.</p>
+                <strong><em><p>Törléshez való jog</p></em></strong>
+                    <p>Az Érintett jogosult arra, hogy kérésére az
+                    Adatkezelő indokolatlan késedelem nélkül törölje a rá vonatkozó személyes adatokat.</p>
+                    <p>A törlési jog nem érvényesíthető az Adatkezelő részéről, amennyiben az Adatkezelőnek törvény írja elő
+                    az adatok további tárolását, továbbá ha az Adatkezelő jogosult a személyes adatokat tovább kezelni
+                    (pl a számlázással kapcsolatos bizonylat megőrzési kötelezettség teljesítése végett).</p>
+                <strong><em><p>Az adatkezelés korlátozásához való jog</p></em></strong>
+                    <p>Ha az adatkezelés korlátozás alá esik, a személyes adatokat a tárolás kivételével csak az érintett
+                    hozzájárulásával, vagy jogi igények előterjesztéséhez, érvényesítéséhez, vagy védelméhez, vagy más
+                    természetes, vagy jogi személy jogainak védelme érdekében, vagy az Unió, illetve valamely tagállam
+                    fontos közérdekéből lehet kezelni. Az ily módon zárolt adatok kezelése csak addig lehetséges, amíg
+                    fennáll az a cél, ami az adattörlést megakadályozta.</p>
+                <strong><em><p>Adathordozáshoz való jog</p></em></strong>
+                    <p>Ön jogosult arra, hogy az Önre vonatkozó, Ön által az Adatkezelő rendelkezésére bocsátott személyes
+                    adatokat tagolt, széles körben használt, géppel olvasható formátumban megkapja, és ezeket az
+                    adatokat egy másik Adatkezelőnek továbbítsa.</p>
+                <strong><em><p>Tiltakozás joga</p></em></strong>
+                    <p>Ön tiltakozhat személyes adatainak kezelése ellen. Az Adatkezelő a tiltakozást a kérelem
+                    benyújtásától számított 15 napon belül megvizsgálja, a megalapozottság kérdésében döntést hoz, és
+                    döntéséről Önt írásban tájékoztatja. Ha az Adatkezelő az érintett helyesbítés, zárolás vagy törlés
+                    iránti kérelmét nem teljesíti, a kérelem kézhezvételét követő 25 napon belül írásban vagy az
+                    érintett hozzájárulásával elektronikus úton közli a helyesbítés, zárolás, vagy törlés iránti kérelem
+                    elutasításának ténybeli és jogi indokait.</p>
+                <strong><em><p>Visszavonás joga</p></em></strong>
+                    <p>Az érintett jogosult arra, hogy hozzájárulását bármikor visszavonja. Tájékoztatjuk, hogy amennyiben a
+                    megrendelés már teljesült, a számla kiállítása megtörtént, úgy a számlakiállítással kapcsolatosan
+                    kezelt adatokat nem áll módunkban törölni a törvényi kötelezettségünk teljesítése miatt.</p>
+                    <br>
+                <p>01-05-2016, Rothenburg ob der Tauber, D</p>
+            </ol>
+        </div>
+
+        <div class="topup">
+            <a href="adatvedelem.php"><img src="img/top.png" alt="Fel"></a>
+        </div>
+    </section>
+
+    <?php require_once "basic/footer.php"; ?>
