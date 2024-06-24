@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Horváth Gábor",
+    "email": "h.gabor@freemail.hu",
+    "phone": "+36203216547",
+    "language1": "szlovén",
+    "language2": "magyar",
+    "szolgaltatas": "tolmacsolas",
+    "message": "Két órás online tolmácsolásra lenne szükségem üzleti ügyben.",
+    "aszf": "ok",
+    "id": 1
+  },
+  {
+    "name": "Nagy Noémi",
+    "email": "noemi@gmail.com",
+    "phone": "+36709876541",
+    "language1": "magyar",
+    "language2": "francia",
+    "szolgaltatas": "forditas",
+    "message": "Egy 3 oldalas levelet szeretnék lefordíttatni.",
+    "aszf": "ok",
+    "id": 2
+  }
+]
